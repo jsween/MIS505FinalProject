@@ -1,0 +1,23 @@
+{
+  "name": "Ireland Educational Enrollment and GDP Data",
+  "description": "A dataset containing 20 years (2000-2019) of Ireland's Primary Education Enrollment and GDP data.",
+  "schema": {
+    "fields": [
+      {
+        "name": "year",
+        "description": "year (YYYY) data was collected",
+        "type": "Integer"
+      },
+      {
+        "name": "Primary Enrollment",
+        "description": "The number of students enrolled in Ireland's primary education for the given year.",
+        "type": "REAL"
+      },
+      {
+        "name": "GDP",
+        "description": "Ireland's Annual Gross Domestic Product for a given year (constant 2015 US$).",
+        "type": "REAL"
+      }
+    ]
+  }
+}
